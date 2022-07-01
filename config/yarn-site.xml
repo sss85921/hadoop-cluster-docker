@@ -11,5 +11,9 @@
     <property>
         <name>yarn.resourcemanager.hostname</name>
         <value>hadoop-master</value>
-    </property>
+     </property>
+        <property>
+                <name>yarn.resourcemanager.webapp.address</name>
+                <value>hadoop-master:8088</value>
+        </property>
 </configuration>
